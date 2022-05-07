@@ -8,5 +8,28 @@ ul{
 
 ul li {
     float: left;
-    padding: 40px 60px;
+    padding: 40px 60px 40px 60px;
+}
+
+.secondlist {
+    list-style-type: disc;
+}
+
+.aside{
+    width: 20%;
+    max-width: 150px;
+    min-width: 100px;
+    float:right;
+    background-color: #606c38;
+}
+
+.heading{
+    background-color: #a3b18a;
+    font-family: didot, serif; 
+}
+
+#quote{
+color: #ffe1a8;
+font-style: italic; 
+font-family: didot, serif;
 }
