@@ -18,9 +18,8 @@ ul li {
 .sidebar{
     padding: 200px 15px 100px 0px;
     float: right;
-    width: 20%;
+    width: 30%;
     height: 300%;
-    float:right;
     background-color: #606c38;
 }
 
@@ -43,4 +42,11 @@ justify-content: center;
 }
 
 
+.paragraphs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    width: 68%;
+    
 }
