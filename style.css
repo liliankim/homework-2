@@ -4,11 +4,15 @@ body {
 
 ul{
     list-style: none;
+
 }
 
 ul li {
     float: left;
     padding: 40px 60px 40px 60px;
+    color: #588157;
+    font-weight: bold;
+    
 }
 
 .secondlist {
@@ -32,4 +36,14 @@ ul li {
 color: #ffe1a8;
 font-style: italic; 
 font-family: didot, serif;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
 }
