@@ -15,14 +15,11 @@ ul li {
     
 }
 
-.secondlist {
-    list-style-type: disc;
-}
-
-.aside{
+.sidebar{
+    padding: 200px 15px 100px 0px;
+    float: right;
     width: 20%;
-    max-width: 150px;
-    min-width: 100px;
+    height: 300%;
     float:right;
     background-color: #606c38;
 }
