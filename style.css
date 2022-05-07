@@ -52,9 +52,14 @@ justify-content: center;
 }
 
 #goodbye{
+    color: #faedcd;
     font-style: italic;
     font-family: serif;
     float:right;
-    height: 200%
+    height: 150%;
     padding: 200px;
+    
+}
+
+
 }
