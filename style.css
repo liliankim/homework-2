@@ -50,3 +50,11 @@ justify-content: center;
     width: 68%;
     
 }
+
+#goodbye{
+    font-style: italic;
+    font-family: serif;
+    float:right;
+    height: 200%
+    padding: 200px;
+}
