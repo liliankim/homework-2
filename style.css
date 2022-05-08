@@ -12,6 +12,7 @@ ul li {
     padding: 40px 60px 40px 60px;
     color: #588157;
     font-weight: bold;
+   
     
 }
 
@@ -21,6 +22,8 @@ ul li {
     width: 30%;
     height: 300%;
     background-color: #606c38;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .heading{
@@ -61,5 +64,13 @@ justify-content: center;
     
 }
 
+.tiles{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0px 15px 100px 0px;
+    float: right;
 
 }
+
