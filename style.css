@@ -1,29 +1,26 @@
 body {
-    background-color: #d4a373;
+ background-color: #d4a373;
 }
 
 ul{
-    list-style: none;
-
+list-style: none;
 }
 
 ul li {
-    float: left;
-    padding: 40px 60px 40px 60px;
-    color: #588157;
-    font-weight: bold;
-   
-    
+float: left;
+padding: 40px 60px 40px 60px;
+color: #588157;
+font-weight: bold;    
 }
 
 .sidebar{
-    padding: 200px 15px 100px 0px;
-    float: right;
-    width: 30%;
-    height: 300%;
-    background-color: #606c38;
-    margin-bottom: 10px;
-    text-align: center;
+padding: 200px 15px 100px 0px;
+float: right;
+width: 30%;
+height: 300%;
+background-color: #606c38;
+margin-bottom: 10px;
+text-align: center;
 }
 
 .heading{
@@ -46,22 +43,20 @@ justify-content: center;
 
 
 .paragraphs{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    float: left;
-    width: 68%;
-    
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+float: left;
+width: 68%;    
 }
 
 #goodbye{
-    color: #faedcd;
-    font-style: italic;
-    font-family: serif;
-    float:right;
-    height: 150%;
-    padding: 200px;
-    
+ color: #faedcd;
+font-style: italic;
+font-family: serif;
+float:right;
+height: 150%;
+padding: 200px;    
 }
 
 .tiles{
@@ -71,6 +66,24 @@ flex-wrap: wrap;
 justify-content: center;
 padding: 0px 15px 100px 0px;
     float: right;
-
 }
+
+.work{
+display: flex;
+}
+
+
+.html{
+ width:800px;
+height:500px;
+}
+
+.css{
+width:400px;
+height:500px;
+}
+
+@media screen and (max-width: 850px) {
+   }
+       
 
