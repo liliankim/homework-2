@@ -1,89 +1,118 @@
 body {
- background-color: #d4a373;
+    background-color: #d4a373;
 }
 
-ul{
-list-style: none;
+ul {
+    list-style: none;
+    height: 25px;
 }
 
 ul li {
-float: left;
-padding: 40px 60px 40px 60px;
-color: #588157;
-font-weight: bold;    
+    float: left;
+    padding: 0px 60px 40px 60px;
+    color: #588157;
+    font-weight: bold;
 }
 
-.sidebar{
-padding: 200px 15px 100px 0px;
-float: right;
-width: 30%;
-height: 300%;
-background-color: #606c38;
-margin-bottom: 10px;
-text-align: center;
-}
 
-.heading{
+.introductionSection {
     background-color: #a3b18a;
-    font-family: didot, serif; 
+    font-family: didot, serif;
+    text-align: center;
+
 }
 
-#quote{
-color: #ffe1a8;
-font-style: italic; 
-font-family: didot, serif;
+#quote {
+    color: #ffe1a8;
+    font-style: italic;
+    font-family: didot, serif;
 }
 
-nav {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
+.monitor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-
-.paragraphs{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-float: left;
-width: 68%;    
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50x;
 }
 
-#goodbye{
- color: #faedcd;
-font-style: italic;
-font-family: serif;
-float:right;
-height: 150%;
-padding: 200px;    
+#goodbye {
+    color: #faedcd;
+    font-style: italic;
+    font-family: serif;
+    float: right;
+    height: 150%;
+    padding: 200px;
 }
 
-.tiles{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-padding: 0px 15px 100px 0px;
+.tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 15px 100px 0px;
     float: right;
 }
 
-.work{
-display: flex;
+.work {
+    display: flex;
 }
 
 
-.html{
- width:800px;
-height:500px;
+.html {
+    width: 800px;
+    height: 500px;
 }
 
-.css{
-width:400px;
-height:500px;
+.css {
+    width: 400px;
+    height: 500px;
 }
 
-@media screen and (max-width: 850px) {
-   }
-       
+  
+#aboutMe {
+    background-color:#d4a373;
+    float: left;
+    height:500px;
+    width:469px;
+    flex-direction: row;
+}
 
+#profile {
+    background-color:#faedcd;
+    flex-direction: row;
+    float: left;
+    height:500px;
+    width:469px;
+}
+
+#contact {
+    background-color:#ccd5ae;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    height:500px;
+    width:469px;
+}
+
+#allAboutMe{
+    height:10px;
+}
+
+#profilePlace{
+    text-align: center;  
+}
+
+#contact{
+    text-align: center;
+}
+
+
+/*@media screen and (max-width: 850px) {}*/
